@@ -1,0 +1,173 @@
+/* UTILITIES */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'MedievalSharp', cursive;
+    width: 100%;
+    /*src: url(font/MedievalSharp-Regular.ttf);*/
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+a:hover {
+    color: #ed563b;
+  }
+
+/*----------------------------------------------------------------------------------------*/
+
+#login-box {
+    border: none;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6 );
+    padding: 20px 150px;
+    margin-bottom: 0px !important;
+}
+
+#login-box h1, h2 {
+    color: white;
+}
+
+#login-box h3 {
+    color: gray;
+}
+
+#login-box .form .item input {
+    width: 300px;
+    border: 0; 
+    border-bottom: 5px solid white; 
+    font-size: 18px; 
+    background: #ffffff00; 
+    color: white; 
+    padding: 5px 10px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+label, .white {
+    color: white;
+}
+
+a {
+    color: #FA824C;
+}
+
+
+.logo_is{
+    display: block;
+}
+ .cuerpo {
+    height:100%;
+     margin: 0px !important;
+     padding:6% 0% ;
+     width: 100%;
+     background-image: url(../imagen/fondo_noticias.jpg);
+     background-repeat: no-repeat;
+     background-size:150%;
+ }
+
+ #boto:hover {
+     cursor: pointer;
+ }
+
+ .ck-content{
+     margin: 0% 0% 3% 0%;
+     height: 780px !important;
+     width: 100%;
+ }
+ 
+ .nueva, .insert, #Subtitulo{
+     color: white;
+ }
+ 
+ .titulo {
+     margin: 10% 10% 5% 10%;
+     color: white;
+     font-size: 54px;
+ }
+ 
+ .sub {
+     margin-bottom: 5%;
+ }
+ 
+  .contenido {
+     color: white;
+     text-align: justify;
+     font-size: 24px;
+     padding-top: 5%;
+     padding-bottom: 5%;
+ }
+ 
+ .contenido > p > img {
+     display:block;
+     margin: auto;
+     width: 80%;
+ }
+ 
+ .hora {
+     margin-top: 2%;
+     margin-bottom: 2%;
+     color: #ed563b;
+     text-align: left;
+ }
+
+ .nombre {
+    font-weight: bold;
+    color: #ed563b;
+    text-align: left;
+}
+ 
+  .titulo1 {
+     text-align: center;  
+ }
+ 
+  #principal {
+      margin: 3% 0% 3% 0%;
+     text-align: justify;
+ }
+ 
+ .prin {
+     width: 500px;
+ }
+ 
+
+ .linea {
+     margin:auto;
+     width: 95%;
+ }
+ 
+ 
+ #boto:hover {
+     cursor: pointer;
+ }
+
+ #login-box .form .item input {
+    width: 300px;
+    border: 0; 
+    border-bottom: 5px solid white; 
+    font-size: 18px; 
+    background: #ffffff00; 
+    color: white; 
+    padding: 5px 10px;
+}
+
+.miniatur {
+    font-size: 18px;
+}
+
+#boto {
+    border-radius: 10%;
+    padding: 2%;
+    font-size: large;
+    color: white;
+    background-color: #342E37;
+    margin: 25px 0px 30px 0px;
+}

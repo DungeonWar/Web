@@ -1,0 +1,126 @@
+/* UTILITIES */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'MedievalSharp', cursive;
+    width: 100%;
+    /*src: url(font/MedievalSharp-Regular.ttf);*/
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+a:hover {
+    color: #ed563b;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+#login-box {
+    border: none;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    background: #00000080;
+    padding: 20px 50px;
+    margin-top: 1%;
+}
+
+#login-box h1 {
+    color: white;
+}
+
+#login-box .form .item input {
+    width: 300px;
+    border: 0; 
+    border-bottom: 5px solid white; 
+    font-size: 18px; 
+    background: #ffffff00; 
+    color: white; 
+    padding: 5px 10px;
+}
+
+#login-box .form .item i {
+    color: white;
+    font-size: 18px;
+}
+
+label {
+    color: white;
+}
+
+a {
+    color: #FA824C;
+}
+
+#login-box button {
+    border: 0; 
+    width: 150px; 
+    height: 30px;
+    margin-top: 18px; 
+    font-size: 18px; 
+    color: white; 
+    border-radius: 40px; 
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+
+#boto {
+    border-radius: 10%;
+    padding: 3%;
+    font-size: large;
+    color: white;
+    background-color: #342E37;
+    margin: 10px 0px;
+}
+
+.logo_is{
+    display: none;
+}
+ .cuerpo {
+    margin: 0px !important;
+    min-height: 760px;
+    padding-top:5% ;
+    padding-bottom:5% ;
+    width: 100%;
+    background-image: url(../imagen/fondo_registro.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+ }
+
+ #boto:hover {
+     cursor: pointer;
+ }
+
+ #pass {
+     margin: 0px 0px 15px 0px;
+ }
+
+ .g-recaptcha {
+     margin: 10px 0px 10px 80px;
+ }
+
+ .error {
+    color: red;
+     font-weight: bold;
+     background-color: rgba(0,0,0,0.5);
+     border-style:solid;
+     border-color: red;
+     border-radius: 10px;
+     padding: 15px;
+     width: 300px;
+     margin:10px 0px 30px 80px;
+     
+ }
+
+ #login-box .form input:focus {
+    border-bottom: 5px solid rgba(255,255,255,0.6); 
+}

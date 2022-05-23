@@ -1,0 +1,151 @@
+/* UTILITIES */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MedievalSharp', cursive;
+    width: 100%;
+    height: 100%;
+    background-size: 30%;
+    background-image: url(../imagen/image.jpg);
+    /*src: url(font/MedievalSharp-Regular.ttf);*/
+    /*background-image: url(../imagen/papiro.jpg);*/
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*----------------------------------------------------------*/
+.cuerpo {
+    margin: 0px !important;
+    min-height: 760px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+
+
+
+}
+
+#user-box .form .item input:focus {
+    border-bottom: 5px solid rgba(255, 255, 255, 0.6) !important;
+}
+
+
+#user-box {
+    border: none;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 50px;
+    margin-bottom: 10px !important;
+
+}
+
+#user-box h1 {
+    color: white;
+}
+
+#user-box .form .item input {
+    width: 300px;
+    border: 0;
+    border-bottom: 5px solid white;
+    font-size: 18px;
+    background: #ffffff00;
+    color: white;
+    padding: 5px 10px;
+}
+
+#user-box .form .item i {
+    color: white;
+    font-size: 18px;
+}
+
+label {
+    color: white;
+}
+
+a {
+    color: #FA824C;
+
+}
+
+#user-box .button {
+    border: 0;
+    width: 150px;
+    height: 30px;
+    margin-top: 18px;
+    font-size: 18px;
+    color: white;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+
+#boto {
+    border-radius: 10%;
+    padding: 3%;
+    font-size: large;
+    color: white;
+    background-color: #342E37;
+    margin: 25px 0px 30px 0px;
+}
+
+
+
+#boto:hover {
+    cursor: pointer;
+}
+
+table {
+    margin: auto;
+    margin-top: 40px;
+    border: solid white 2px;
+    width: 100%;
+}
+
+tr:nth-child(1) td {
+    height: 50px !important;
+}
+
+td:nth-child(2),
+td:nth-child(3) {
+    border-left: solid 1px white;
+
+}
+
+td {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: solid 1px white;
+}
+
+tr:nth-child(2) {
+    color: #F0E68C;
+}
+tr:nth-child(3) {
+    color: #C0C0C0;
+}
+tr:nth-child(4) {
+    color: #cd7f32 ;
+}
+
+.registro td {
+    padding: 8px;
+}
+
+
+.white {
+    color: white;
+}

@@ -1,0 +1,133 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 20px;*/
+    background-color: #342E37;
+    color: black;
+    font-weight: bold;
+   
+   }
+.nav-links {
+       width: 100%;
+   }
+.nav-links a {
+    color: #FA824C;
+    font-weight: bold;
+    
+   }
+   /* LOGO */
+.logo1 {
+       width: 100px!important; 
+   }
+.sep {
+    width: 80%;
+   }
+   
+.img{
+    height: 20%;
+    width:5%;
+    margin: 0px;
+    margin-top: 10px;
+
+}
+.user_menu {
+    width: 300px;
+}
+
+   /* NAVBAR MENU */
+.menu2 {
+    display: flex;
+    gap: 1em;
+    font-size: 17px;
+    width: 100%;
+    padding-left: 30%;
+   }
+.menu2 li a:hover {
+    color: #ed563b;
+    -webkit-text-stroke: 1px white;
+   }
+   
+.menu2 li {
+    padding: 2.5% 1% 0% 1%;
+   }
+   /* DROPDOWN MENU 1 */
+.services {
+    position: relative; 
+   }
+.dropdown {
+    background-color: #342E37;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 75px;
+    border-style: solid;
+    z-index: 2;
+    width: 130px;
+
+   }
+   .dropdown li:hover {
+    background-color:rgba(0,0,0,0.1) !important;
+}
+.dropdown li + li {
+    margin-top: 0px;
+   }
+.dropdown li:nth-child(1) {
+    border-bottom: solid 2px;
+   }
+.dropdown li:nth-child(2) {
+    border-bottom: solid 2px;
+   }
+
+.dropdown li {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+   }
+.dropdown li:hover {
+    background-color: #342E37;
+   }
+.img:hover .dropdown {
+    display: block;
+   }
+   
+     /* DROPDOWN MENU 2 */
+.dropdown_user {
+    background-color: #342E37;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 85px;
+    border-style: solid;
+    z-index: 2;
+    width: 130px;
+
+   }
+
+
+
+.dropdown_user li + li {
+    margin-top: 0px;
+   }
+   
+.dropdown_user li{
+    border-bottom: solid 2px;
+    padding-top:20px;
+   }
+.dropdown_user li:last-child {
+    border-bottom-style: none;
+
+}
+   
+.dropdown_user li {
+    width: 100%;
+    height: 55px;
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+   }
+
+.services:hover .dropdown_user {
+    display: block;
+   }

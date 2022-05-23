@@ -1,0 +1,173 @@
+/* UTILITIES */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'MedievalSharp', cursive;
+    width: 100%;
+    /*src: url(font/MedievalSharp-Regular.ttf);*/
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+a:hover {
+    color: #ed563b;
+}
+
+
+#login-box {
+    border: none;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    background: #00000080;
+    padding: 20px 50px;
+    margin-top: 1%;
+}
+
+#login-box h1 {
+    color: white;
+}
+
+#login-box .form .txt {
+    width: 300px;
+    border: 0; 
+    border-bottom: 5px solid white; 
+    font-size: 18px; 
+    background: #ffffff00; 
+    color: white; 
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+#login-box .form .item input {
+    width: 300px;
+    border: 0; 
+    border-bottom: 5px solid white; 
+    font-size: 18px; 
+    background: #ffffff00; 
+    color: white; 
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+#login-box .form input:focus {
+    border-bottom: 5px solid rgba(255,255,255,0.6); 
+}
+
+
+
+label {
+    color: white;
+}
+
+a {
+    color: #FA824C;
+}
+
+
+
+
+#boto {
+    border-radius: 10%;
+    padding: 3%;
+    font-size: large;
+    color: white;
+    background-color: #342E37;
+    margin: 10px 0px;
+}
+#boto2 {
+    border-radius: 8%;
+    padding: 2%;
+    font-size:medium;
+    color: white;
+    background-color: #342E37;
+    margin: 5px 0px;
+}
+
+#boto3 {
+    border-radius: 5%;
+    padding: 13%;
+    font-size:small;
+    color: white;
+    background-color: #342E37;
+    
+}
+#boto4 {
+    border-radius: 5%;
+    padding: 1%;
+    font-size:small;
+    color: white;
+    background-color: #342E37;
+    
+}
+ .cuerpo {
+    margin: 0px !important;
+    min-height: 760px;
+    padding-top:5% ;
+    padding-bottom:5% ;
+    width: 100%;
+    background-image: url(../imagen/fondo_registro.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+ }
+
+ #boto:hover, #boto2:hover, #boto3:hover, #boto4:hover {
+     cursor: pointer;
+ }
+
+.usuarios {
+    color: white;
+    margin: 10px;
+    border: solid 1px white;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 7px;
+    height: 50px;
+    padding-top: 10px;
+    width: 100%;
+}
+ .error {
+    color: red;
+     font-weight: bold;
+     background-color: rgba(0,0,0,0.5);
+     border-style:solid;
+     border-color: red;
+     border-radius: 10px;
+     padding: 15px;
+     width: 300px;
+     margin:10px 0px 30px 80px;
+     
+ }
+
+ select {
+     margin: 20px 0px;
+ }
+
+ .valores {
+    visibility: hidden;
+    position: absolute;
+}
+.edit {
+    margin-right: 5px;
+}
+
+.editar_F {
+   width: 85%;
+   margin: 0px 0px 0px 20px;
+   position: relative;
+   float: left;
+}
+.editar2 {
+    float: right;
+}
+
+.borrar_F {
+float: left;
+    width: 10% !important;
+}

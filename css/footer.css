@@ -1,0 +1,53 @@
+.footer {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #342E37;
+    margin-top: 0%;
+    width: 100%;
+
+  }
+  .container, .row, .col-lg-12, .col-lg-13, .span {
+      width: 100%;
+      text-align: center !important;
+
+  }
+  .col-lg-12 span p a {
+    cursor: pointer;
+    color: #FA824C;
+    width: 100%;
+    text-align: center !important;
+
+  }
+  .col-lg-13 span p a {
+    cursor: pointer;
+    margin: 0px;
+    text-align: center !important;
+  }
+ 
+  .col-lg-12 .span p {
+      color:white;
+      font-size: 14px;
+      width: 100%;
+      text-align: center;
+  }
+
+
+  
+  .cookies_link {
+      text-align: center;
+
+  }
+  .footer a:hover {
+    color: #ed563b;
+  }
+  .col2 {
+    padding:auto;
+  }
+  .trans {
+    width: 1.5%;
+    margin: auto;
+  }
+ 
+  .trans3 {
+    width: 1.7%!important;
+  }

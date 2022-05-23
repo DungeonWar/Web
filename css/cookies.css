@@ -1,0 +1,125 @@
+/* UTILITIES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: 'Montserrat', sans-serif;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 20px;*/
+    background-color: #342E37;
+    color: black;
+    font-weight: bold;
+   }
+   .nav-links {
+       width: 100%;
+   }
+   .nav-links a {
+    color: #fff;
+    -webkit-text-stroke: 1px #FA824C;
+   }
+   /* LOGO */
+   .logo1 {
+       width: 6% !important; 
+   }
+   .logo_is {
+       width: 18%;
+       margin-left: 86%;
+       margin-top: 1%;
+   }
+   .logo_is:hover{
+        background-image: url(../imagen/escudo_effect.png) no-repeat;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 16px;
+    width: 100%;
+    padding-left: 38%;
+   }
+   .menu li a:hover {
+    -webkit-text-stroke: 1px orange;
+
+   }
+   .menu li {
+    padding: 2.5% 1% 0% 1%;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: #342E37;
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #342E37;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+
+/* TEXTO */
+
+h1 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h2 {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+p, h1, h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #342E37;
+    margin-top: 2%;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 13px;
+  }
+  
+  footer p a {
+    cursor: pointer;
+    color: #ed563b;
+  }
+  
+  footer p a:hover {
+    color: #ed563b;
+  }

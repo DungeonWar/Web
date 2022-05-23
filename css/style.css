@@ -1,0 +1,223 @@
+/* UTILITIES */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MedievalSharp', cursive;
+    width: 100%;
+    height: 100%;
+    /*src: url(font/MedievalSharp-Regular.ttf);*/
+    background-image: url(../imagen/image.jpg);
+    background-size: 30%;
+    /*background-repeat: no-repeat;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*----------------------------------------------------------*/
+.cuerpo {
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
+#fondo {
+    background: rgba(0, 0, 0, 0.4 );
+    width: 90%;
+    border-radius: 15px;
+    border: double black 5px;
+    margin: 80px auto 100px auto;
+
+}
+
+.trailer {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: black;
+}
+
+
+#intro {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 1 );
+    margin-top: 50px;
+
+    
+}
+
+.intro2 {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.logo_texto {
+    width: 130%;
+    margin: auto;
+}
+
+.logo_texto:hover{
+    opacity:0.05;
+    filter:alpha(opacity=40);
+    cursor: none;
+    }
+
+/* EXPLICACIÓN */
+.tabla_inicio {
+    width: 80%;
+    margin: auto;
+}
+
+.tabla_inicio tr {
+    width: 100%;
+}
+
+
+.tabla_inicio tr td {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.tabla_inicio tr td h3 {
+    text-align: justify !important;
+
+}
+
+
+.tabla_inicio tr td:nth-child(1) {
+    width: 40%;
+}
+
+.tabla_inicio tr td:nth-child(2) {
+    width: 100px !important;
+}
+.tabla_inicio h3 {
+    font-weight: normal !important;
+}
+
+.imagen1 {
+    margin: 0px 25% 0px 0px !important;
+}
+
+.imagen2 {
+    margin: 0px 0px 0px 25% !important;
+}
+
+.inicio {
+    margin: 3% 3% 3% 3%;
+    width: 97%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ h1,
+ h3 {
+    text-align: center;
+    width: 100%;
+    font-family: 'MedievalSharp', cursive;
+
+}
+
+.inicio h3 {
+    font-weight: normal !important;
+}
+
+.imagen1,
+.imagen2 {
+    display: block;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.text1,
+.text2 {
+    text-align: center;
+    width: 100%;
+    padding: 0% 18% 0% 18%;
+}
+
+.gif {
+    width: 200px;
+}
+.gif1 {
+    width: 130px;
+}
+
+.noticias {
+    width: 100%;
+}
+.noticias tr {
+    border: solid black 5px;
+    border-radius: 8px;
+   
+}
+
+.noticias tr td  {
+    border-collapse: collapse;
+    border: none;
+    margin: 20px !important;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.3 );
+    border: solid black 2px;
+
+    
+}
+
+.noticias {
+    border-collapse: collapse;
+
+}
+.miniatura {
+    display:block;
+    margin:auto;
+    width: 300px;
+}
+.miniatura:hover {
+    display:block;
+    margin:auto;
+    width: 300px;
+}
+
+.titulo {
+    text-align: left;  
+}
+
+hr {
+    width: 75%;
+    margin: auto;
+}
+.hr1 {
+    width: 80% !important;
+}
+
+.noticias a, a:visited {
+    color: #ed563b;
+    }
+.noticias a:hover {
+    color: #FA824C;
+}

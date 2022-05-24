@@ -14,6 +14,7 @@ $orderNumber = 567;
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/footer.css" />
   <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/header_login.css" />
   <link rel="shortcut icon" href="imagen/logo_foto.png">
 
   <TITLE> Dungeon War - Descargar </TITLE>

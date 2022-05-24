@@ -43,7 +43,7 @@
                 ?>
             </table>
         </div>
-         
-    
+    </div>   
+    <?php require "footer.view.php" ?>
 </body>
 </html>

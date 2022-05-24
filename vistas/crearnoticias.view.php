@@ -11,21 +11,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       echo "<li>Error: " . $e->getMessage()."</li>";
   }
 
-  $imagen = $_FILES['image']['tmp_name'];
+  $imagen = $_FILES['imagenes']['tmp_name'];
   $imgContent = addslashes(file_get_contents($imagen));
   $hora = date("d-m-y h:i:s");
-echo $imgContent;
-  $usr = $_SESSION["name"];
-  //$statement = $conexion->query('INSERT INTO noticias(ID, Miniatura, Username, Hora, Titular, Subtitulo, Contenido) VALUES (null, "'.$imgContent.'", "'.$_SESSION["name"].'", "'.$hora.'", "'.$titulo.'", "'.$subtitulo.'", "'.$txtDescripcion.'"');
-  $statement66 = $conexion->prepare('INSERT INTO noticias(ID,Miniatura,Username,Hora,Titular,Subtitulo,Contenido) VALUES (null, :imagenes, :user, :hora, :titulo, :sub, :cont)');
+  $usr = ucfirst($_SESSION["name"]);
+  $statement66 = $conexion->prepare('INSERT INTO noticias(ID,Username,Hora,Titular,Subtitulo,Contenido) VALUES (null, :user, :hora, :titulo, :sub, :cont)');
         $statement66->execute(array(
-          ':imagenes' => $imgContent,
           ':user' => $usr,
           ':hora' => $hora,
           ':titulo' => $titulo,
           ':sub' => $subtitulo,
           ':cont' => $txtDescripcion
         ));
+  $statement67 = $conexion->query("UPDATE noticias SET Miniatura = '$imgContent' ORDER BY ID DESC LIMIT 1");
   header("Location: noticias.php");
 }
 ?>
@@ -64,7 +62,7 @@ echo $imgContent;
       <div class="item">    
           <input type="text" id="subtitulo" name="subtitulo" placeholder="Subtítulo"><br><br><br>
       </div>    
-          <label class="miniatur" >Miniatura: [recomendado 1280x720] </label><input class="white" type="file" name="image" accept="image/png, .jpg"></label></br></br><br>
+          <label class="miniatur" >Miniatura: [recomendado 1280x720] </label><input class="white" type="file" name="imagenes" ></label></br></br><br>
           <hr></br></br>
           <label><h2>Insertar Contenido de la noticia: </h2></label><br>
           <textarea type="text" name="txtDescripcion" id="txtDescripcion" class="editor"></textarea>

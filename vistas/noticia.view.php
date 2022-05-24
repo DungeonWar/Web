@@ -29,6 +29,21 @@
         <p class="hora"><?php echo $resultado5.$i[2] ?>, <?php echo $resultado5.$i[3] ?></p>
         <h2 class="sub"><?php echo $resultado5.$i[5] ?></h2>
         <div class="contenido"><?php echo $resultado5.$i[6] ?></div><br>  
+      <?php 
+          if ($rango == "admin" || $rango == "editor") {
+            echo '<form action="" method="POST">';
+            echo '<input type="submit" name="submit" value="Eliminar Noticia" id="boto">';
+            echo '</form>';
+          }
+          
+          if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $id = $resultado5.$i[0];
+            $statement = $conexion->query("DELETE FROM noticias WHERE ID = $id");  
+            header("Location: noticias.php");
+          }
+          
+        ?>
+      </form>
       </div>
   </div>
   <?php require "footer.view.php" ?>
@@ -38,3 +53,4 @@
 
 
 </HTML>
+

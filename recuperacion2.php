@@ -68,7 +68,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                             require "connect.php";
 
             
-                            $password = hash('sha512', $_POST["password"]);
+                            //$password = hash('sha512', $_POST["password"]);
+                            $password = base64_encode($_POST["password"]);
+
                             $mail = $_SESSION["email"];
             
                             $update = $conexion->query('UPDATE passwords SET passwd = "'.$password.'" WHERE mail = "'.$mail.'"'); 

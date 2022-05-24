@@ -10,7 +10,8 @@ $error = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = filter_var(strtolower($_POST["mail"]), FILTER_SANITIZE_EMAIL);
     $password = $_POST["password"];
-    $password = hash("sha512", $password);
+    //$password = hash("sha512", $password);
+    $password = base64_encode($password);
 
     try {
         require "connect.php";

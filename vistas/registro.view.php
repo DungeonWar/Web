@@ -50,7 +50,7 @@
         <input type="submit" value="Registrarse" name="input" id="boto"><br><br>
         <?php if(!empty($error)): ?>
     <div>
-      <ul>
+      <ul class='error'>
         <?php echo $error; ?>
       </ul>
     </div>

@@ -39,9 +39,26 @@ li {
     width: 90%;
     border-radius: 15px;
     border: double black 5px;
-    margin: 80px auto 100px auto;
+    margin: 80px auto 200px auto;
 
 }
+
+#fondo2 {
+    background: rgba(0, 0, 0, 0.4 );
+    width: 70%;
+    border-radius: 15px;
+    border: solid black 5px;
+    margin: 80px auto 200px auto;
+    padding: 3%;
+
+}
+
+.metodo {
+    margin-bottom: 300px !important;
+
+
+}
+
 
 .trailer {
     width: 80%;
@@ -214,10 +231,32 @@ hr {
 .hr1 {
     width: 80% !important;
 }
+.hr2 {
+    width: 80% !important;
+    margin: 10px auto;
+}
 
 .noticias a, a:visited {
     color: #ed563b;
     }
 .noticias a:hover {
     color: #FA824C;
+}
+
+.about  td:first-child{
+    width: 55%;
+}
+
+.about  td {
+    text-align: justify;
+
+}
+
+.img1 {
+    width: 300px !important;
+    margin: 0px 0px 0px 100px;
+}
+
+.metodo {
+    margin: auto;
 }

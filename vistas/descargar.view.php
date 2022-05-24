@@ -30,21 +30,15 @@ $orderNumber = 567;
     } ?>
   <div class="cuerpo">
 
-
-
-
-
-    <div class="descarga">
-      <img src="imagen/fondo_descarga.jpg">
-      <h1>DESCARGAR</h1>
+    <div id="fondo2">
+      <h1>Selecciona el metodo de pago:</h1>
     </div>
-
-    <script src="https://www.paypal.com/sdk/js?client-id=test"></script>
-    <script>
-      paypal.Buttons().render('body');
-    </script>
-
-
+    <div class="metodo">
+      <script src="https://www.paypal.com/sdk/js?client-id=test"></script>
+      <script>
+        paypal.Buttons().render('body');
+      </script>
+      </div>
   </div>
   <?php require "footer.view.php" ?>
 

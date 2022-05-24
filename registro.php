@@ -54,7 +54,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $error = "";
 
     if (empty($username) or empty($password) or empty($password2) or empty($mail)) {
-        $error .="<li class='error'>Por favor rellena todos los campos correctamente</li>";
+        $error .="<li>Por favor rellena todos los campos correctamente</li>";
     } else {
         try {
             require "connect.php";
@@ -101,9 +101,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         } 
        
         
-        $password = hash('sha512', $password);
-		$password2 = hash('sha512', $password2);
-
+$password = base64_encode($password);
+$password2 = base64_encode($password2);
+//$password = hash('sha512', $password);
+//$password2 = hash('sha512', $password2);
        
     }
     if ($error == '') {

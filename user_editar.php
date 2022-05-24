@@ -64,7 +64,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (empty($password)) {
             $error .= "La contraseña antigua es obligatoria";
         } else {
-            $password = hash('sha512', $password);
+            //$password = hash('sha512', $password);
+            $password = base64_encode($password);
+
             $correo = $_SESSION["mail"];
             $statement = $conexion->query("SELECT * FROM passwords WHERE mail = '$correo' AND passwd = '$password'");
             $resultado2 = $statement->fetch();
@@ -101,7 +103,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $error .= '<li>La contraseña debe contener minimo un número</li>';
             } 
 
-            $password2 = hash('sha512', $password2);
+            //$password2 = hash('sha512', $password2);
+            $password2 = base64_encode($password2);
+
     }
 
 	

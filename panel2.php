@@ -52,7 +52,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     	
         if (!empty($passwd)) {
-            $passwd = hash('sha512', $passwd);
+            $passwd = base64_encode($passwd);
+            //$passwd = hash('sha512', $passwd);
         }
 
     if ($error == '') {

@@ -7,6 +7,22 @@
   <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/header_login.css" />
   <link rel="stylesheet" href="css/footer.css" />
+  <script>
+    googleTranslateElementInit función() {
+
+        nueva google.translate.TranslateElement({
+
+          pageLanguage: 'en'
+
+        }, 'Google_translate_element');
+
+      }
+
+      <script>
+      <script src = "// translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" >
+  </script>
+  </script>
+  </script>
 
   <link rel="shortcut icon" href="imagen/logo_foto.png">
   <TITLE> Dungeon War </TITLE>
@@ -19,8 +35,8 @@
     } else {
       require("header.view.php");
     } ?>
-    
-  <div class="cuerpo">
+
+  <div id="google_translate_element" class="cuerpo">
     <div id="intro">
       <div class="intro2">
         <img class="logo_texto" src="imagen/logo_texto.png">

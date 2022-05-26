@@ -36,11 +36,7 @@
             echo '</form>';
           }
           
-          if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $id = $resultado5.$i[0];
-            $statement = $conexion->query("DELETE FROM noticias WHERE ID = $id");  
-            header("Location: noticias.php");
-          }
+        
           
         ?>
       </form>

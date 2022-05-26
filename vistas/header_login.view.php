@@ -12,9 +12,9 @@
         <a>Guías</a>
         <!-- DROPDOWN MENU -->
         <ul class="dropdown">
-          <li><a href="/">Clases</a></li>
-          <li><a href="/">Enemigos </a></li>
-          <li><a href="/">Jefes</a></li>
+          <li><a href="guia_clases.php">Clases</a></li>
+          <li><a href="guia_enemigos.php">Enemigos </a></li>
+          <li><a href="guia_jefes.php">Jefes</a></li>
         </ul>
       </li>
       <li><a href="about.php">Sobre <br> nosotros</a></li>

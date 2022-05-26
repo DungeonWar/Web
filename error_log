@@ -1,0 +1,199 @@
+[10-May-2022 18:57:45 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[10-May-2022 18:58:26 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[10-May-2022 19:02:04 UTC] PHP Warning:  Undefined array key "mail" in /home/h74vrfbc/public_html/noticias.php on line 6
+[10-May-2022 19:02:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'Abel'@'localhost' (using password: YES) in /home/h74vrfbc/public_html/noticias.php:9
+Stack trace:
+#0 /home/h74vrfbc/public_html/noticias.php(9): PDO->__construct()
+#1 {main}
+  thrown in /home/h74vrfbc/public_html/noticias.php on line 9
+[10-May-2022 19:26:32 UTC] PHP Warning:  Undefined variable $conexion in /home/h74vrfbc/public_html/registro.php on line 66
+[10-May-2022 19:26:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/h74vrfbc/public_html/registro.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/h74vrfbc/public_html/registro.php on line 66
+[10-May-2022 19:27:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[10-May-2022 19:27:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[10-May-2022 20:34:50 UTC] PHP Warning:  Undefined array key "mail" in /home/h74vrfbc/public_html/noticias.php on line 6
+[10-May-2022 20:34:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/h74vrfbc/public_html/noticias.php on line 14
+[10-May-2022 20:34:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/h74vrfbc/public_html/noticias.php:14
+Stack trace:
+#0 /home/h74vrfbc/public_html/noticias.php(14): PDO->query()
+#1 {main}
+  thrown in /home/h74vrfbc/public_html/noticias.php on line 14
+[10-May-2022 20:34:52 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[10-May-2022 20:35:02 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:38:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:38:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:38:43 UTC] PHP Warning:  include(config.php): Failed to open stream: No such file or directory in /home/h74vrfbc/public_html/vistas/descargar.view.php on line 5
+[12-May-2022 18:38:43 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/h74vrfbc/public_html/vistas/descargar.view.php on line 5
+[12-May-2022 18:38:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:38:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:38:46 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:38:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:39:26 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:41:45 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:42:00 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:42:09 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:43:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:45:05 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:46:55 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:46:57 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:48:23 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:48:27 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 18:51:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:54:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:54:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:55:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:56:00 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:57:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:58:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:58:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:58:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:58:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:15 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 18:59:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:00:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:00:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:00:11 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:00:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:00:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:00:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:01:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:01:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:01:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:01:29 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:01:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:01:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:01:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:02:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:02:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:02:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:04:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:05:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:05:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:05:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:05:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:05:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:05:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:05:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:05:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:06:01 UTC] PHP Warning:  require(vistas/user_editar.view.php): Failed to open stream: No such file or directory in /home/h74vrfbc/public_html/user_editar.php on line 106
+[12-May-2022 19:06:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vistas/user_editar.view.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/h74vrfbc/public_html/user_editar.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/h74vrfbc/public_html/user_editar.php on line 106
+[12-May-2022 19:06:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:06:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:07:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:07:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:07:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:07:58 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 19:08:03 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 19:08:11 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[12-May-2022 19:17:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:17:33 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:18:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:18:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:18:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:18:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:18:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:18:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:18:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:18:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:19:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:19:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:19:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:19:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:20:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:20:30 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:20:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:21:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:21:11 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:22:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:22:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:23:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:25:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:25:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:25:58 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:25:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:26:27 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:27:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:27:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:27:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:27:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:27:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:27:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:29:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:29:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:29:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[12-May-2022 19:30:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 07:51:09 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:51:17 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:51:26 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:51:35 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:51:41 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:51:50 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:51:56 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:52:05 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:52:11 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:52:19 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:52:27 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 07:56:56 UTC] PHP Warning:  Undefined array key "mail" in /home/h74vrfbc/public_html/noticias.php on line 6
+[13-May-2022 07:56:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/h74vrfbc/public_html/noticias.php on line 14
+[13-May-2022 07:56:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/h74vrfbc/public_html/noticias.php:14
+Stack trace:
+#0 /home/h74vrfbc/public_html/noticias.php(14): PDO->query()
+#1 {main}
+  thrown in /home/h74vrfbc/public_html/noticias.php on line 14
+[13-May-2022 07:57:10 UTC] PHP Warning:  Undefined array key "mail" in /home/h74vrfbc/public_html/noticias.php on line 6
+[13-May-2022 07:57:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/h74vrfbc/public_html/noticias.php on line 14
+[13-May-2022 07:57:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/h74vrfbc/public_html/noticias.php:14
+Stack trace:
+#0 /home/h74vrfbc/public_html/noticias.php(14): PDO->query()
+#1 {main}
+  thrown in /home/h74vrfbc/public_html/noticias.php on line 14
+[13-May-2022 07:57:22 UTC] PHP Warning:  Undefined array key "mail" in /home/h74vrfbc/public_html/noticias.php on line 6
+[13-May-2022 07:57:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/h74vrfbc/public_html/noticias.php on line 14
+[13-May-2022 07:57:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/h74vrfbc/public_html/noticias.php:14
+Stack trace:
+#0 /home/h74vrfbc/public_html/noticias.php(14): PDO->query()
+#1 {main}
+  thrown in /home/h74vrfbc/public_html/noticias.php on line 14
+[13-May-2022 07:57:24 UTC] PHP Warning:  Undefined array key "mail" in /home/h74vrfbc/public_html/noticias.php on line 6
+[13-May-2022 07:57:24 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/h74vrfbc/public_html/noticias.php on line 14
+[13-May-2022 07:57:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/h74vrfbc/public_html/noticias.php:14
+Stack trace:
+#0 /home/h74vrfbc/public_html/noticias.php(14): PDO->query()
+#1 {main}
+  thrown in /home/h74vrfbc/public_html/noticias.php on line 14
+[13-May-2022 13:19:26 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 13:19:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:19:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:20:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:20:43 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 13:20:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:20:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:22:27 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 13:23:29 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 13:26:42 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/h74vrfbc/public_html/PHPMailer/PHPMailerAutoload.php on line 45
+[13-May-2022 13:46:10 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:46:10 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:46:46 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:48:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:48:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:48:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:51:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:51:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:51:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:51:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:51:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:51:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:52:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2
+[13-May-2022 13:52:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/h74vrfbc/public_html/user_name.php on line 2

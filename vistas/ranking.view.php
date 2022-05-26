@@ -33,9 +33,20 @@
               for ($i=0; $i < 10 ; $i++) { 
                   $pos = $i+1;
                 echo "<tr class='registro'>";
-                echo "<td>$pos</td>";
-                echo "<td>".$usr[$i][0]."</td>";
-                echo "<td>".$usr[$i][1]."pts.</td>";
+                if ($pos == 1) {
+                  echo "<td><IMG SRC='https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f947.png' WIDTH=25 HEIGHT=25></td>";                  
+                }
+                elseif ($pos == 2) {
+                  echo "<td><IMG SRC='https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f948.png' WIDTH=25 HEIGHT=25></td>";
+                }
+                elseif ($pos == 3) {
+                  echo "<td><IMG SRC='https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f949.png' WIDTH=25 HEIGHT=25></td>";
+                }
+                else {
+                  echo "<td>$pos</td>";
+                }
+                echo "<td>".ucfirst($usr[$i][0])."</td>";
+                echo "<td>".$usr[$i][1]." pts</td>";
                 echo "</tr>";
               }
 
